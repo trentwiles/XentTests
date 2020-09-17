@@ -1,0 +1,5 @@
+!% /bin/node
+const fs = require("fs");
+let ReadStream = fs.createReadStream("test.txt");
+ReadStream.pipe(stdout)
+%!
